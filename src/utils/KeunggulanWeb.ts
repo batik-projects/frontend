@@ -1,7 +1,7 @@
 export const KeunggulanWeb=[
   {
     id:1,
-    name : 'High Accucary',
+    name : 'High Accuracy',
     desc : 'Sistem AI kami dilatih dengan ribuan gambar batik, memungkinkan prediksi yang cepat dan akurat dalam mengenali jenis dan asal batik.'
   },
   {

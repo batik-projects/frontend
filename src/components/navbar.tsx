@@ -1,6 +1,4 @@
 import Image from "next/image";
-import { NavItem } from "./NavItem";
-import logo from "@/assets/logo.png";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -12,7 +10,7 @@ export default function Navbar() {
       const scrollTop = window.pageYOffset;
       const height = window.innerHeight;
 
-      if (scrollTop > height * 0.5) {
+      if (scrollTop > height * 0.1) {
         setScrolled(true);
       } else {
         setScrolled(false);
@@ -69,3 +67,26 @@ export default function Navbar() {
     </nav>
   );
 }
+
+export const NavItem = [
+  {
+    id:1,
+    title : 'Home',
+    path : '/'
+  },
+  {
+    id:2,
+    title : 'About',
+    path : '/about'
+  },
+  {
+    id:3,
+    title : 'Detection',
+    path : '/detection'
+  },
+  {
+    id:4,
+    title : 'Contact',
+    path : '/contact'
+  },
+]
