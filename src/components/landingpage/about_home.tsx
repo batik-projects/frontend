@@ -1,13 +1,12 @@
-import { KeunggulanWeb } from "@/utils/KeunggulanWeb";
 import { FaCheckCircle } from "react-icons/fa";
 import Image from "next/image";
 import aboutImg from "@/assets/batik_collection/20007.jpg";
-
+import { KeunggulanWeb } from "@/utils/keunggulan-web";
 
 export default function AboutHome() {
-  return(
+  return (
     <>
-        <section className="mt-16 px-[5%] ">
+      <section className="mt-16 px-[5%] ">
         <div className="text-center">
           <div className="">
             <h1 className="text-3xl font-bold">About</h1>
@@ -47,5 +46,5 @@ export default function AboutHome() {
         </div>
       </section>
     </>
-  )
+  );
 }

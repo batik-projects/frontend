@@ -1,9 +1,11 @@
+'use client'
+
 import Image from "next/image";
 
 import bghomepage from "@/assets/bgbatik.png";
 import home2 from "@/assets/home2.jpg";
 import home3 from "@/assets/home3.jpg";
-import { batikItem } from "@/utils/batikItem";
+import { batikItem } from "@/utils/batik-Item";
 import { SwiperSlide, Swiper } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
 import Navbar from "@/components/navbar";
@@ -20,7 +22,6 @@ export default function Jumbotron() {
         className="bg-center relative bg-cover h-screen "
       >
         <div className="absolute inset-0 bg-black bg-opacity-75 "></div>
-        <Navbar />
 
         <div className="relative pt-36 px-[3%] flex justify-center items-center gap-6">
           <div className="w-1/2">
